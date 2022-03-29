@@ -12,7 +12,9 @@ body {
   a:hover {
     color: #86769d;
   }
-  
+  #questions{
+    transition: margin-right 2s;
+  }
   button {
     display: inline-block;
     margin: 5px;
@@ -79,7 +81,7 @@ body {
     text-decoration: underline;
   }
   
-  .feedback {
+  .scoreLs {
     font-style: italic;
     font-size: 120%;
     margin-top: 20px;
